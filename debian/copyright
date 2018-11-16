@@ -1,0 +1,15 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: prun-couchbase
+Upstream-Contact: Konstantin A Zhuravlev <zhukov@zhukov.int.ru>
+Source: https://github.com/zhka/prun-couchbase
+
+Files: *
+Copyright: (C) 2018+ Konstantin A Zhuravlev <zhukov@zhukov.int.ru>
+License: Apache-2.0
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/Apache-2.0 on Debian systems.
+
+Files: libcouchbase-cxx/* 
+License: Apache-2.0
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/Apache-2.0 on Debian systems.

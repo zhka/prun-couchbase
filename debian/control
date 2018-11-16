@@ -1,0 +1,19 @@
+Source: prun-couchbase
+Section: database
+Priority: optional
+Maintainer: Konstantin A Zhuravlev <zhukov@zhukov.int.ru>
+Build-Depends:	cdbs,
+		cmake (>= 2.6),
+		debhelper (>= 7.0.50~),
+		libboost-dev,
+		libcouchbase-dev
+Standards-Version: 3.8.0
+Homepage: https://github.com/zhka/prun-couchbase
+Vcs-Git: git://github.com/zhka/prun-couchbase.git
+Vcs-Browser: https://github.com/zhka/prun-couchbase
+
+Package: prun-couchbase
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Prun job serialization library
+ prun-couchbase is a prun job serialization library

@@ -1,0 +1,5 @@
+prun-couchbase (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Konstantin A Zhuravlev <zhukov@zhukov.int.ru> Thu, 15 Nov 13:31:58 +0300
